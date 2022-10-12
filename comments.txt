@@ -1,9 +1,10 @@
 to use version control:
 
 1: add the file u want by using git add (file name & extension) or git add . to add the files in working directory
-2: to get to the repositry stage u need to commit the file and give it a message name so it will be saved if you want to get back to it anytime,
+2: to get to the repositry stage u need to commit the file and give it a message name so it will be saved in the staging area if you want to get back to it anytime,
 we use git commit -m "the message, it should be in present".
 3: if you messed up, you can use the (git checkout "file name") to roll back the saved version of your file.
 4: git diff "file name" to know the differences between the current version & the lat one that edited.
 5: git status to know the status of your file if its commited or not.
 6: git log to see files information & hashes.
+7: push the local repositry to the remote repositry using git remote add origin then push -u origin (or any name u want)to the master bransh called master
